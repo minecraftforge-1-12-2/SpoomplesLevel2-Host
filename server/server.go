@@ -71,7 +71,7 @@ func (server *Server) Start() {
 		_ = listener.Close()
 	}(listener)
 
-	util.WriteLine("Good to go!")
+	util.WriteLine("it work.....")
 
 	for server.Up {
 		conn, err := listener.Accept()

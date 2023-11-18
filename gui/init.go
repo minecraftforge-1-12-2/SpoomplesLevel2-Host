@@ -25,7 +25,7 @@ var (
 func InitGui() {
 	Enabled = true
 	App = app.New()
-	Window = App.NewWindow("Together Forever")
+	Window = App.NewWindow("Spoomples Level 2 Host")
 	Window.SetFixedSize(true)
 	Window.Resize(fyne.NewSize(600, 405))
 	ico := fyne.NewStaticResource("icon.png", Icon)
@@ -39,7 +39,7 @@ func InitGui() {
 	OutBox.TextStyle.Monospace = true
 	OutBox.Wrapping = fyne.TextWrapWord
 
-	InputBox.SetPlaceHolder("NOT YET COMPLETE")
+	InputBox.SetPlaceHolder("NO")
 	InputBox.Disable()
 
 	img := canvas.NewImageFromResource(ico)
@@ -50,7 +50,7 @@ func InitGui() {
 			layout.NewHBoxLayout(),
 			layout.NewSpacer(),
 			img,
-			MakeGuiText(" Together Forever Server", 30, color.White),
+			MakeGuiText(" Spoomples Level 2 Host", 30, color.White),
 			layout.NewSpacer(),
 		),
 		layout.NewSpacer(),
