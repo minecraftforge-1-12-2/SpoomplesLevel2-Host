@@ -1,0 +1,4 @@
+# Together Server Bans File
+# This file contains a list of banned Adr256s.
+# Each Adr256 should be on a new line.
+# You're probably not gonna want to edit this file manually. Use the /ban command instead.

@@ -57,7 +57,7 @@ func InitServer(conf config.Config) {
 
 func (server *Server) Start() {
 	// Initialize Server
-	util.WriteLine("  _____              _   _            \n |_   _|__  __ _ ___| |_| |_  ___ _ _ \n   | |/ _ \\/ _` / -_)  _| ' \\/ -_) '_|\n  _|_|\\___/\\__, \\___|\\__|_||_\\___|_|  \n | __|__ _ |___/__ _____ _ _          \n | _/ _ \\ '_/ -_) V / -_) '_|         \n |_|\\___/_| \\___|\\_/\\___|_|")
+	util.WriteLine("spoomples the level")
 	util.WriteLine("Server starting on {0}:{1}...", server.Host, strconv.Itoa(server.Port))
 	defer server.Stop()
 	server.Up = true

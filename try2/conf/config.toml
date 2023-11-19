@@ -1,0 +1,31 @@
+# Together Server Config
+
+# Public Host
+host = "127.0.0.1"
+# Default Port
+port = 6666
+# Timeout in seconds
+timeout = 10
+# Max players
+maxplayers = 999
+
+
+# Enable Anticheat
+anticheat = true
+
+
+# Name the files (no directory)
+# Keys file
+keys = "keys.lsf"
+# Bans file
+bans = "bans.lsf"
+# Bad words file
+badwords = "badwords.lsf"
+
+
+# Enable GUI
+enable = true
+# Enable GUI logging
+log = true
+# Enable GUI input
+input = true
